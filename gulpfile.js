@@ -37,12 +37,14 @@ function watchServe() {
   watch('./src/css/style.css', minCss);
 }
 
-   return src('./src/css/style.css')
+function minCss(){
+  return src('./src/css/style.css')
   .pipe(minifyCss())
   .pipe(rename({suffix: '.min'}))
   .pipe(dest('./dist/css'))
   .pipe(browserSync.reload({stream: true}));
 }
+
 function addFonts(){
   return src('./src/fonts').pipe(dest('./dist'));
 }
