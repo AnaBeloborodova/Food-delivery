@@ -3,8 +3,10 @@
   border: 1px solid red
   margin: 0 auto
   margin-top: 80px
+  position: relative
   & h1
     text-align: center
+    margin-top: 100px
   &__group
     display: flex
     justify-content: space-around
@@ -20,8 +22,94 @@
       text-decoration: none
       margin-bottom: 50px
       margin-top: 50px
-      padding-top: 18px
-      padding-left: 75px
       font-family: 'Montserrat-SemiBold', sans-serif
+      display: flex
+      align-items: center
+      justify-content: center
+    & a:first-child
+      margin-left: 300px
+    & a:last-child
+      margin-right: 300px
+  &__page
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    align-items: center
+    width: 80%
+    margin: 0 auto
+  &__background-icon1 
+    position: absolute
+    margin-top: -1050px
+  &__background-icon2
+    position: absolute
+    margin-top: -970px
+    margin-left: 1250px
+  &__more
+    display: none
+    border: 5px solid black
+    margin: 0 auto
+
+
+
+.page
+  
+  &__element
+    width: 260px
+    height: 400px
+    border: 2px solid #ECEEF7
+    border-radius: 15px
+    margin-bottom: 20px
+    display: flex
+    flex-direction: column 
+    justify-content: center
+    align-items: center
+    
+    
+   
+    & p 
+      margin-left: 10px
+      font-size: 12px
+  
+.element 
+  position: relative
+    &__foto
+      width: 170px
+      height: 170px
+    &__title
+      align-self: start
+      margin-left: 10px
+    &__size
+      align-self: flex-end
+      margin-right: 10px
+      margin-top: -30px
+      font-family: 'Montserrat-Regular', sans-serif
+      font-size: 12px
+      font-weight: normal
+    &__price
+      font-size: 24px
+      font-family: 'Montserrat-Light', sans-serif
+      margin-top: 20px
+      margin-bottom: 20px
+    &__basket
+      width: 33px
+      height: 33px
+      
+      margin-bottom: -40px
       
       
+      
+    &__absolute-icon
+      position: absolute
+      margin-top: -340px 
+      margin-left: -170px
+
+.rect
+  border: 2px solid #ECEEF6
+  border-radius: 0 0 20px 0
+  transform: translateY(24px) rotate(45deg)
+  position: absolute
+  margin-top: 354px
+  border-top: none
+  border-left: none
+
+  
