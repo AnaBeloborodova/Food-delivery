@@ -30,6 +30,10 @@
       margin-left: 300px
     & a:last-child
       margin-right: 300px
+    & a:hover
+      cursor: pointer
+      color: $light
+      background-color:#FE5626
   &__page
     display: flex
     flex-wrap: wrap
@@ -53,6 +57,10 @@
      
       width: 60px
       height: 60px
+      &:hover
+        cursor: pointer
+        transform: scale(1.5) rotate(90deg)
+
     
     
 
@@ -103,6 +111,11 @@
   &__basket
     margin-bottom:
     margin-top: 70px
+    &:hover
+      cursor: pointer
+      transform: scale(1.5)
+    &:active
+        background: url('/dist/img/icon-basket-orange.svg') center no-repeat
 
 .rect
   border: 2px solid #ECEEF6

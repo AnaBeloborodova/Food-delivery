@@ -395,6 +395,8 @@ template {
 .nav__icon {
   margin-top: 10px;
   margin-right: -60px; }
+  .nav__icon:hover {
+    transform: scale(1.2); }
 
 .nav__icon3 {
   margin-top: -5px; }
@@ -452,6 +454,10 @@ template {
       margin-left: 300px; }
     .menu__group a:last-child {
       margin-right: 300px; }
+    .menu__group a:hover {
+      cursor: pointer;
+      color: white;
+      background-color: #FE5626; }
   .menu__page {
     display: flex;
     flex-wrap: wrap;
@@ -473,6 +479,9 @@ template {
     margin-top: 50px;
     width: 60px;
     height: 60px; }
+    .menu__more img:hover {
+      cursor: pointer;
+      transform: scale(1.5) rotate(90deg); }
 
 .page__element {
   width: 260px;
@@ -515,6 +524,11 @@ template {
     margin-left: -180px; }
   .element__basket {
     margin-top: 70px; }
+    .element__basket:hover {
+      cursor: pointer;
+      transform: scale(1.5); }
+    .element__basket:active {
+      background: url("/dist/img/icon-basket-orange.svg") center no-repeat; }
 
 .rect {
   border: 2px solid #ECEEF6;
@@ -567,6 +581,9 @@ template {
         font-family: 'Montserrat-Regular', sans-serif; }
         .gallery__instagram a p span {
           font-family: 'Montserrat-Bold', sans-serif; }
+      .gallery__instagram a:hover {
+        color: black;
+        transform: scale(1.2); }
 
 .form {
   background-color: #F0F5FB; }
@@ -602,10 +619,27 @@ template {
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 18px;
     color: white; }
+    .wrap__input-group button:hover {
+      cursor: pointer;
+      transform: scale(1.1);
+      color: black; }
+    .wrap__input-group button:active {
+      outline: none !important; }
+    .wrap__input-group button:focus {
+      outline: none !important; }
     .wrap__input-group button img {
       width: 32px;
       height: 9px;
       padding-left: 30px; }
+  .wrap__input-group input:hover {
+    cursor: pointer;
+    border: 3px solid #FE5626; }
+    .wrap__input-group input:hover:active {
+      outline: none !important; }
+    .wrap__input-group input:hover:focus {
+      outline: none !important; }
+    .wrap__input-group input:hover:visited {
+      outline: none !important; }
   .wrap__input-group input:first-child {
     margin-left: 290px; }
 

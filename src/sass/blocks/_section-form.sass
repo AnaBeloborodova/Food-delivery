@@ -32,10 +32,30 @@
       font-family: 'Montserrat-Bold', sans-serif
       font-size: 18px
       color: $light
+      &:hover
+        cursor: pointer
+        transform: scale(1.1)
+        color: $dark
+      &:active
+        outline: none !important
+      &:focus
+        outline: none !important
+        
       & img
         width: 32px
         height: 9px
         padding-left: 30px
+    & input:hover
+      cursor: pointer
+      border: 3px solid #FE5626
+      &:active
+        outline: none !important
+      &:focus
+        outline: none !important
+      &:visited
+        outline: none !important
+    
+    
        
     
     & input:first-child
