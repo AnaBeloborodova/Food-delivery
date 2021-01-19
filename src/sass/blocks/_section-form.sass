@@ -1,3 +1,6 @@
+*
+  outline:none
+
 .form
   background-color: #F0F5FB
   &__wrap
@@ -34,30 +37,23 @@
       color: $light
       &:hover
         cursor: pointer
-        transform: scale(1.1)
+       
         color: $dark
-      &:active
-        outline: none !important
-      &:focus
-        outline: none !important
+      &:active, &:focus
+        border: 0 
+        outline: none
         
       & img
         width: 32px
         height: 9px
         padding-left: 30px
-    & input:hover
-      cursor: pointer
-      border: 3px solid #FE5626
-      &:active
-        outline: none !important
+
+    & input
+      &:hover,
       &:focus
-        outline: none !important
-      &:visited
-        outline: none !important
-    
-    
-       
-    
-    & input:first-child
-      margin-left: 290px
-      
+        cursor: pointer
+        outline: none 
+        border: 3px solid $primary
+
+      &:first-child
+        margin-left: 290px

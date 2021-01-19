@@ -4,7 +4,8 @@ const {series, src, dest, watch, parallel} = require('gulp'),
   sass = require('gulp-sass'),
   rename = require('gulp-rename'),
   minifyCss = require('gulp-minify-css'),
-  autoprefixer = require('gulp-autoprefixer');
+  autoprefixer = require('gulp-autoprefixer'),
+  postcss = require('gulp-postcss');
   
 
 function bs() { 
@@ -19,9 +20,6 @@ function bs() {
 function sassCompil () {
   return src('./src/sass/**/*.sass')
     .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer({
-      cascade: false
-    }))
     .pipe(dest('./src/css'))
     .pipe(browserSync.reload({stream: true}));
 }
@@ -39,6 +37,11 @@ function watchServe() {
 
 function minCss(){
   return src('./src/css/style.css')
+  .pipe(autoprefixer(
+    {
+      cascade: false
+  }
+  ))
   .pipe(minifyCss())
   .pipe(rename({suffix: '.min'}))
   .pipe(dest('./dist/css'))
