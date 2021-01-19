@@ -385,7 +385,9 @@ template {
     .header__about img {
       margin-left: 150px; }
   .header__foto {
-    animation: fall 2s ease 1s 1; }
+    animation-name: slideBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease; }
 
 .nav__logo {
   margin-top: -16px;
@@ -682,11 +684,11 @@ template {
     float: right;
     transform: translate(-20px, 45px); }
 
-@keyframes fall {
-  0% {
-    top: 0; }
-  100% {
-    top: 100%; } }
+@keyframes slideBottom {
+  from {
+    margin-top: 880px; }
+  to {
+    margin-top: -10px; } }
 
 body {
   font-family: 'Montserrat-Regular', sans-serif;
