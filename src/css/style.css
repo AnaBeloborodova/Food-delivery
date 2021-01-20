@@ -500,7 +500,8 @@ template {
     border: 2px solid #FE5626; }
   .page__element p {
     margin-left: 10px;
-    font-size: 12px; }
+    font-size: 12px;
+    align-self: start; }
 
 .element {
   position: relative; }
@@ -528,6 +529,8 @@ template {
     margin-top: -350px;
     margin-left: -180px; }
   .element__basket {
+    widht: 33px;
+    height: 33px;
     margin-top: 70px; }
     .element__basket:hover {
       cursor: pointer;
