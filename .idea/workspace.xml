@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
       <workItem from="1611149712413" duration="2517000" />
       <workItem from="1611196474459" duration="20000" />
       <workItem from="1615284268551" duration="629000" />
-      <workItem from="1615293554527" duration="598000" />
+      <workItem from="1615293554527" duration="798000" />
     </task>
     <servers />
   </component>
