@@ -315,7 +315,9 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1256px;
-  border: 1px solid red; }
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box; }
 
 h1 {
   font-family: 'Montserrat-Bold', sans-serif;
@@ -418,7 +420,7 @@ h3 {
 
 .nav__icon {
   margin-top: 10px;
-  margin-right: -60px; }
+  margin-right: -35px; }
   .nav__icon:hover {
     transform: scale(1.2); }
 
@@ -448,9 +450,9 @@ h3 {
     font-weight: bold; }
 
 .menu {
+  position: relative;
   margin: 0 auto;
-  margin-top: 40px;
-  position: relative; }
+  margin-top: 40px; }
   .menu h1 {
     text-align: center;
     margin-top: 50px; }
@@ -486,15 +488,15 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto; }
   .menu__background-icon1 {
     position: absolute;
     margin-top: -1050px; }
   .menu__background-icon2 {
     position: absolute;
-    margin-top: -970px;
-    margin-left: 500px; }
+    right: 0;
+    top: 0; }
   .menu__more a {
     display: block;
     text-align: center; }
@@ -675,9 +677,9 @@ label.invalid {
   font-size: 0.8rem;
   top: -20%; }
   label.invalid#userName-error {
-    left: 23%; }
+    left: 25%; }
   label.invalid#userPhone-error {
-    left: 43%; }
+    left: 45%; }
 
 .result {
   height: 50px;
@@ -694,7 +696,7 @@ label.invalid {
     margin-right: 20px;
     font-family: 'Montserrat-Bold', sans-serif;
     text-align: center;
-    padding-top: 20px; }
+    padding-top: 10px; }
     .result span::after {
       content: '';
       width: 20px;

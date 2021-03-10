@@ -10,9 +10,7 @@
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_menu.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-gallery.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-result.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-result.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,9 @@
       <workItem from="1615351512309" duration="1442000" />
       <workItem from="1615353406628" duration="1924000" />
       <workItem from="1615355353181" duration="1812000" />
-      <workItem from="1615357191483" duration="1532000" />
+      <workItem from="1615357191483" duration="1794000" />
+      <workItem from="1615359008206" duration="231000" />
+      <workItem from="1615359258175" duration="451000" />
     </task>
     <servers />
   </component>
