@@ -1,4 +1,5 @@
 $('.basic-form').validate({
+  errorClass: "invalid",
   rules: {
     // simple rule, converted to {required:true}
     userName: "required",

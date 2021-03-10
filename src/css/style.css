@@ -355,7 +355,7 @@ template {
   width: 100%;
   background-color: #F0F5FB; }
   .header__wrap {
-    background: url("/dist/img/background.png") center no-repeat;
+    background: url("../img/background.png") center no-repeat;
     max-width: 1400px;
     margin: 0 auto;
     border: 1px solid #F0F5FB;
@@ -593,12 +593,16 @@ template {
         color: black;
         transform: scale(1.2); }
 
+* {
+  outline: none; }
+
 .form {
+  position: relative;
   background-color: #F0F5FB; }
   .form__wrap {
     width: 1400px;
     margin: 0 auto;
-    background: url("/dist/img/background2.png") no-repeat;
+    background: url("../img/background2.png") no-repeat;
     height: 590px; }
     .form__wrap h1 {
       text-align: center;
@@ -643,6 +647,10 @@ template {
     border: 3px solid #FE5626; }
   .wrap__input-group input:first-child {
     margin-left: 290px; }
+
+label.invalid {
+  color: tomato;
+  font-size: 0.86rem; }
 
 .result {
   width: 1400px;
