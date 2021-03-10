@@ -303,6 +303,28 @@ template {
 [hidden] {
   display: none; }
 
+* {
+  box-sizing: border-box; }
+
+body {
+  position: relative;
+  width: 100%;
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 16px; }
+
+.container {
+  margin: 0 auto;
+  max-width: 1256px;
+  border: 1px solid red; }
+
+h1 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 48px; }
+
+h3 {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 16px; }
+
 @font-face {
   font-family: 'Montserrat-Regular';
   src: url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.woff2") format("woff");
@@ -357,7 +379,6 @@ template {
   background-color: #F0F5FB; }
   .header__wrap {
     background: url("../img/background.png") center no-repeat;
-    max-width: 1400px;
     margin: 0 auto;
     border: 1px solid #F0F5FB;
     max-height: 880px; }
@@ -427,7 +448,6 @@ template {
     font-weight: bold; }
 
 .menu {
-  max-width: 1400px;
   margin: 0 auto;
   margin-top: 40px;
   position: relative; }
@@ -474,7 +494,7 @@ template {
   .menu__background-icon2 {
     position: absolute;
     margin-top: -970px;
-    margin-left: 1250px; }
+    margin-left: 500px; }
   .menu__more a {
     display: block;
     text-align: center; }
@@ -550,7 +570,6 @@ template {
   border-left: none; }
 
 .gallery {
-  max-width: 1400px;
   margin: 0 auto;
   position: relative;
   margin-top: 100px;
@@ -600,7 +619,6 @@ template {
 .form {
   background-color: #F0F5FB; }
   .form__wrap {
-    width: 1400px;
     margin: 0 auto;
     background: url("../img/background2.png") no-repeat;
     height: 590px; }
@@ -627,7 +645,7 @@ template {
     background: linear-gradient(180deg, #FE5626 0%, #F23F0E 100%), #59AAF1;
     box-shadow: 0px 4px 8px rgba(205, 169, 41, 0.26);
     border-radius: 59px;
-    margin-right: 290px;
+    margin-right: 180px;
     font-family: 'Montserrat-Bold', sans-serif;
     font-size: 18px;
     color: white; }
@@ -662,7 +680,6 @@ label.invalid {
     left: 43%; }
 
 .result {
-  width: 1400px;
   height: 50px;
   margin: 0 auto;
   margin-top: 30px; }
@@ -709,19 +726,3 @@ label.invalid {
     margin-top: 880px; }
   to {
     margin-top: -10px; } }
-
-* {
-  box-sizing: border-box; }
-
-body {
-  width: 100%;
-  font-family: 'Montserrat-Regular', sans-serif;
-  font-size: 16px; }
-
-h1 {
-  font-family: 'Montserrat-Bold', sans-serif;
-  font-size: 48px; }
-
-h3 {
-  font-family: 'Montserrat-SemiBold', sans-serif;
-  font-size: 16px; }
