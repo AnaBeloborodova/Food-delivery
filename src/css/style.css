@@ -603,7 +603,6 @@ template {
   outline: none; }
 
 .form {
-  position: relative;
   background-color: #F0F5FB; }
   .form__wrap {
     width: 1400px;
@@ -654,9 +653,18 @@ template {
   .wrap__input-group input:first-child {
     margin-left: 290px; }
 
+.basic-form {
+  position: relative; }
+
 label.invalid {
+  position: absolute;
   color: tomato;
-  font-size: 0.86rem; }
+  font-size: 0.8rem;
+  top: -20%; }
+  label.invalid#userName-error {
+    left: 23%; }
+  label.invalid#userPhone-error {
+    left: 43%; }
 
 .result {
   width: 1400px;

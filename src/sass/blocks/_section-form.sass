@@ -2,7 +2,7 @@
   outline: none
 
 .form
-  position: relative
+
   background-color: #F0F5FB
   &__wrap
     width: 1400px
@@ -58,9 +58,17 @@
 
       &:first-child
         margin-left: 290px
+.basic-form
+  position: relative
 
 label
   &.invalid
-
+    position: absolute
     color: tomato
-    font-size: 0.86rem
+    font-size: 0.8rem
+    top: -20%
+    &#userName-error
+      left: 23%
+    &#userPhone-error
+      left: 43%
+
