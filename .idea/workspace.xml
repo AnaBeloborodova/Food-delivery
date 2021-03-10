@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/jquery.mask.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery.mask.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery.validate.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.mask.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +62,7 @@
       <workItem from="1615340150261" duration="140000" />
       <workItem from="1615340309494" duration="124000" />
       <workItem from="1615351512309" duration="1442000" />
-      <workItem from="1615353406628" duration="774000" />
+      <workItem from="1615353406628" duration="1010000" />
     </task>
     <servers />
   </component>
