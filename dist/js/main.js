@@ -1,4 +1,5 @@
 $('.basic-form').validate({
+  errorClass: "invalid",
   rules: {
     // simple rule, converted to {required:true}
     userName: "required",
@@ -17,6 +18,9 @@ $('.basic-form').validate({
       required: "Обязательно укажите телефон"
     }
   },
-  $('[type=tel]').mask('+7(000) 000-00-00', {placeholder: "+7 (___) ___-__-__"});
+
+
 
 });
+
+$('[type=tel]').mask('+7(000) 000-00-00', {});
