@@ -587,8 +587,8 @@ h3 {
     margin-top: -145px; }
   .gallery__instagram {
     position: absolute;
-    margin-top: -215px;
-    margin-left: 455px;
+    top: 12%;
+    left: 31%;
     width: 480px;
     height: 180px;
     background: linear-gradient(45.04deg, #FD9924 -51.05%, #F65B16 134.89%);
