@@ -7,18 +7,27 @@
     margin: 0 auto
     border: 1px solid #F0F5FB
     max-height: 880px
+    @media (max-width: $desktop-full)
+      width: 95%
+
+
     
   &__nav
     display: flex
     justify-content: space-around
     align-items: center
     margin-top: 30px
-    
+    @media (max-width: $tablet)
+      margin-top: 100px
+    @media (max-width: $mobile)
+      flex-direction: column
+
     & a
       text-decoration: none
       color: $dark
+      @media (max-width: $mobile)
+        margin-top: 10px
   &__about
-    
     margin: 0 auto
     max-width: 790px
     display: flex
@@ -28,15 +37,23 @@
     position: relative
     
     & h1
-      margin-top: 100px 
+      margin-top: 100px
+      @media (max-width: $tablet)
+        text-align: center
+      @media (max-width: $mobile)
+        font-size: 24px
       
     & p 
-    
       margin-top: 18px
       width: 80%
       font-size: 18px
+      @media (max-width: $mobile)
+        font-size: 16px
+        text-align: center
     & img 
       margin-left: 150px
+      @media (max-width: $tablet)
+        width: 100%
   &__foto
     animation-name: slideBottom
     animation-duration: 1s
@@ -51,39 +68,66 @@
     margin-top: -16px
     margin-right: 150px
     margin-left: 220px
+    @media (max-width: $desktop-full)
+      margin-right: 0
+      margin-left: 0
+    @media (max-width: $tablet)
+      position: absolute
+      top: 20px
+
   &__icon
     margin-top: 10px
     margin-right: -35px
     &:hover
       transform: scale(1.2)
+    @media (max-width: $desktop)
+      display: none
   &__icon3
     margin-top: -5px
+    @media (max-width: $desktop)
+      display: none
+
 
   &__tel
     font-size: 18px
+  &__time
+    @media (max-width: $tablet)
+      display: none
 
 .absolute
   &__icon
     position: absolute
     top: 50%
     right: 27%
+    @media (max-width: $desktop)
+      display: none
+
   &__vector
     position: absolute
     right: 10%
     top: 46%
+    @media (max-width: $desktop)
+      display: none
   &__text
     position: absolute
     right: -72%
     top: 40%
     font-size: 16px
+    @media (max-width: $desktop-full)
+      right: -60%
+      top: 38%
+    @media (max-width: $desktop)
+      right: -50%
+      top: 32%
+    @media (max-width: $tablet)
+      display: none
    
     & span
       color: orange
       font-weight: bold
 
-   
-    
 
-    
-  
-  
+
+
+
+

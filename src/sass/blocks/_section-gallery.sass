@@ -24,6 +24,8 @@
     display: flex
     justify-content: center
     align-items: center
+    @media (max-width: $tablet)
+      width: 70%
     & a 
       height: 140px
       width: 440px
@@ -36,9 +38,20 @@
       color: $light
       font-size: 24px
       font-family: 'Montserrat-Regular', sans-serif
+      @media (max-width: $tablet)
+        width: 90%
+        font-size: 18px
+      @media (max-width: $mobile)
+        font-size: 16px
       & span
         font-family: 'Montserrat-Bold', sans-serif
+
+
+
       &:hover
         color: $dark
         transform: scale(1.2)
+    @media (max-width: $desktop)
+      left: 20%
+
     

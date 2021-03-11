@@ -4,8 +4,16 @@
     <list default="true" id="ec3165b5-d628-4330-b93b-0ac38252a033" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_menu.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-gallery.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +44,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +80,17 @@
       <workItem from="1615359008206" duration="231000" />
       <workItem from="1615359258175" duration="561000" />
       <workItem from="1615359982999" duration="132000" />
+      <workItem from="1615360375922" duration="18000" />
+      <workItem from="1615368436449" duration="231000" />
+      <workItem from="1615368683373" duration="35000" />
+      <workItem from="1615368766875" duration="1793000" />
+      <workItem from="1615370583447" duration="836000" />
+      <workItem from="1615381827413" duration="101000" />
+      <workItem from="1615381941925" duration="15000" />
+      <workItem from="1615382170823" duration="8000" />
+      <workItem from="1615382228833" duration="251000" />
+      <workItem from="1615429286478" duration="1859000" />
+      <workItem from="1615441138940" duration="4202000" />
     </task>
     <servers />
   </component>
