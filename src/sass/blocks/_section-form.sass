@@ -36,8 +36,7 @@
         width: 30%
       @media (max-width: $tablet)
         width: 42%
-      @media (max-width: $mobile)
-        padding-left: 0
+
 
     & button
       background: linear-gradient(180deg, #FE5626 0%, #F23F0E 100%), #59AAF1
@@ -49,15 +48,15 @@
       color: $light
       @media (max-width: $desktop-full)
         margin-right: 0
+
       @media (max-width: $tablet)
         display: block
         margin: 0 auto
         margin-top: 10px
+        padding-bottom: 20px
+
       @media (max-width: $mobile)
         padding-top: 15px
-
-
-
 
       &:hover
         cursor: pointer
@@ -72,8 +71,12 @@
         width: 32px
         height: 9px
         padding-left: 30px
+        @media (max-width: $tablet)
+          padding-left: 0
 
     & input
+      @media (max-width: $mobile)
+        padding-left: 10px
       &:hover,
       &:focus
         cursor: pointer
@@ -97,6 +100,10 @@ label
     top: -20%
     &#userName-error
       left: 25%
+      @media (max-width: $desktop)
+        left: 5%
     &#userPhone-error
       left: 45%
+      @media (max-width: $desktop)
+        left: 40%
 

@@ -6,14 +6,11 @@
       <change beforePath="$PROJECT_DIR$/dist/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_variables.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_footer.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_header.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_menu.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-form.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sass/blocks/_section-gallery.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/blocks/_section-gallery.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +87,8 @@
       <workItem from="1615382170823" duration="8000" />
       <workItem from="1615382228833" duration="251000" />
       <workItem from="1615429286478" duration="1859000" />
-      <workItem from="1615441138940" duration="4202000" />
+      <workItem from="1615441138940" duration="4242000" />
+      <workItem from="1615797932722" duration="10598000" />
     </task>
     <servers />
   </component>
